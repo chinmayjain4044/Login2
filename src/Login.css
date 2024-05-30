@@ -1,0 +1,235 @@
+body, html {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 120%;
+  max-width: 1200px;
+  height: 455px;
+}
+
+.recent-logins {
+  flex: 1;
+}
+
+.recent-logins-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Increased spacing between "Recent Login" and "click to add your picture" */
+}
+
+.header-text {
+  text-align: left;
+}
+
+.recent-logins-header h2 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.recent-logins-header p {
+  margin: 0;
+  margin-bottom: 15px;
+  color: #757575;
+}
+
+.login-accounts {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.login-account,
+.add-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.login-account img {
+  width: 140px;
+  height: 140px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.uploaded-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.login-account p,
+.add-account p {
+  margin: 10px 0 0;
+}
+
+.add-account-icon,
+.custom-file-upload {
+  font-size: 2rem;
+  line-height: 60px;
+  background-color: #ddd;
+  width: 140px;
+  height: 140px;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-file-upload {
+  display: inline-block;
+}
+
+#file-upload {
+  display: none;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 25px; /* Significantly increased gap between fields */
+  position: relative;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 10px; /* Increased space between label and input */
+  font-size: 14px;
+  color: #333;
+  text-align: left; /* Left-align label */
+}
+
+.password-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.password-input-container input {
+  width: calc(100% - 40px); /* Ensure consistent width with padding for toggle button */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-toggle {
+  position: absolute; /* Position the button absolutely within the container */
+  top: 50%; /* Center vertically */
+  right: 10px; /* Align to the right */
+  transform: translateY(-50%); /* Center vertically */
+  cursor: pointer;
+  color: #5e5f5f;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form input[type="text"] { /* Added input[type="text"] for consistent styles */
+  width: calc(100% - 20px); /* Ensure consistent width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.forgot-password {
+  margin-top: 20px; /* Increased gap above "Forgot your password" */
+  margin-bottom: 25px; /* Significantly increased gap between "Forgot your password" and create account button */
+  color: #080808;
+  cursor: pointer;
+  text-align: center; /* Centrally aligned "Forgot your password" */
+  width: 100%;
+}
+.forgot-password:hover {
+  color: #757575;
+}
+
+.login-button,
+.create-account-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: -12px; /* Increased gap between buttons */
+}
+
+.login-button {
+  background-color: #757575;
+  color: #fff;
+}
+
+.create-account-button {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120%;
+  border-top: 1px solid #ddd;
+  padding: 10px 10px;
+}
+
+.footer-left {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-left a {
+  margin: 10px;
+  color: #939393;
+  text-decoration: none;
+}
+
+.footer-right {
+  margin-right: 20px;
+}
+
+.footer-right select {
+  padding: 5px;
+  border: 1px solid #f9f8f8;
+  border-radius: 5px;
+  color: #757575;
+}
