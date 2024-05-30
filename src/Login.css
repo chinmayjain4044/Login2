@@ -37,7 +37,7 @@ body, html {
 .recent-logins-header {
   display: flex;
   align-items: center;
-  margin-bottom: 20px; /* Increased spacing between "Recent Login" and "click to add your picture" */
+  margin-bottom: 20px; 
 }
 
 .header-text {
@@ -127,16 +127,16 @@ body, html {
 
 .input-container {
   width: 100%;
-  margin-bottom: 25px; /* Significantly increased gap between fields */
+  margin-bottom: 25px; 
   position: relative;
 }
 
 .input-container label {
   display: block;
-  margin-bottom: 10px; /* Increased space between label and input */
+  margin-bottom: 10px; 
   font-size: 14px;
   color: #333;
-  text-align: left; /* Left-align label */
+  text-align: left; 
 }
 
 .password-input-container {
@@ -145,25 +145,25 @@ body, html {
 }
 
 .password-input-container input {
-  width: calc(100% - 40px); /* Ensure consistent width with padding for toggle button */
+  width: calc(100% - 40px); 
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 .password-toggle {
-  position: absolute; /* Position the button absolutely within the container */
-  top: 50%; /* Center vertically */
-  right: 10px; /* Align to the right */
-  transform: translateY(-50%); /* Center vertically */
+  position: absolute; 
+  top: 50%; 
+  right: 10px;
+  transform: translateY(-50%); 
   cursor: pointer;
   color: #5e5f5f;
 }
 
 .login-form input[type="email"],
 .login-form input[type="password"],
-.login-form input[type="text"] { /* Added input[type="text"] for consistent styles */
-  width: calc(100% - 20px); /* Ensure consistent width */
+.login-form input[type="text"] { 
+  width: calc(100% - 20px); 
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -171,11 +171,11 @@ body, html {
 }
 
 .forgot-password {
-  margin-top: 20px; /* Increased gap above "Forgot your password" */
-  margin-bottom: 25px; /* Significantly increased gap between "Forgot your password" and create account button */
+  margin-top: 20px; 
+  margin-bottom: 25px; 
   color: #080808;
   cursor: pointer;
-  text-align: center; /* Centrally aligned "Forgot your password" */
+  text-align: center;
   width: 100%;
 }
 .forgot-password:hover {
@@ -189,7 +189,7 @@ body, html {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  margin-top: -12px; /* Increased gap between buttons */
+  margin-top: -12px; 
 }
 
 .login-button {
