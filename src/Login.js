@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
-import userImage from './assets/img1.png'; // Replace this with the actual path to your image
+import userImage from './assets/img1.png'; 
 
 function Login() {
   const [uploadedImage, setUploadedImage] = useState(null);
@@ -89,7 +89,6 @@ function Login() {
         <div className="footer-right">
           <select>
             <option>English (United States)</option>
-            {/* Add more languages as needed */}
           </select>
         </div>
       </footer>
